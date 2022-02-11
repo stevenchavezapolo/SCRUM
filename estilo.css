@@ -1,0 +1,595 @@
+.nav1 {
+    width: 98%;
+    background-color: white;
+
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.textoNav1 {
+    color: rgb(68, 67, 67);
+    margin: 3px;
+    text-decoration: none;
+    margin-top: 7px;
+}
+
+
+
+.fa-facebook-square:hover {
+    color: #3B5998;
+}
+
+.fa-twitter-square:hover {
+    color: #55acee;
+}
+
+.fa-google-plus-square:hover {
+    color: #dd4b39;
+}
+
+.fa-linkedin-square:hover {
+    color: #0177B5;
+}
+
+.fa-facebook-square {
+    font-size: 30px;
+    color: gray;
+    margin: 3px;
+    margin-top: 1px;
+}
+
+.fa-twitter-square {
+    font-size: 30px;
+    color: gray;
+    margin: 3px;
+    margin-top: 1px;
+}
+
+.fa-google-plus-square {
+    font-size: 30px;
+    color: gray;
+    margin: 3px;
+    margin-top: 1px;
+}
+
+.fa-linkedin-square {
+    font-size: 30px;
+    color: gray;
+    margin: 3px;
+    margin-top: 1px;
+}
+
+
+.nav2{
+    padding: 0.5%;
+    background-color: #252222;
+    display: flex;
+    flex-direction: row;
+
+}
+.textoNav2{
+    color: white;
+    text-decoration: none;
+    
+    margin-top: 1.8%;
+    text-transform: uppercase;
+    font-family: 'Oxfam-TSTARPRO-light', sans-serif;
+    margin-left: 2%;
+}
+.logo{
+    width: 5%;
+    height: 5%;
+    margin-left: 2%;
+    
+}
+.lupa{
+    width: 2%;
+    height: 2%;
+    margin-top: 1.5%;
+    margin-left: 24%;
+}
+
+.persona{
+    width: 2%;
+    height: 2%;
+    margin-top: 1.5%;
+    margin-left: 1%;
+}
+.idioma{
+    margin-top: 1.75%;
+    
+    margin-left: 1%;
+}
+.colorIdioma{
+    background-color: #252222 ;
+    color: white;
+    border-color: #252222;
+}
+.botonDonativo{
+    background-color: orangered;
+    padding: 13%;
+    margin-top: 7% ;
+    color: white;
+  
+    font-weight: bold;
+}
+
+/* Hasta aqui la parte de pablo
+ahora la parte de anas:
+*/
+.base{
+   
+   display: flex;
+   width: 95%;
+flex-direction: column;
+   
+}
+.arriba{
+ 
+   display: flex;
+   flex-direction: column;
+   width: 80%;
+   margin: auto;
+   padding: 30px;
+   
+}
+.centro{
+   
+   display: flex;
+   flex-direction: row;
+   width: 70%;
+   margin: auto;
+   padding: 30px;
+}
+.abajo{
+   
+   display: flex;
+   flex-direction: column;
+   width: 60%;
+   margin: auto;
+   padding: 30px;
+}
+.sub{
+   display: flex;
+   flex-direction: column;
+   width: 90%;
+   margin-left: 40%;
+   padding: 0px;
+   width: 96.5%
+    
+   
+}
+.sub2{
+  
+ 
+   background-repeat: no-repeat;
+   background-position: 350px;
+   background-size: 25px 25px;
+   height: 25px;
+   width: 25px;
+   content: "";
+   cursor: pointer;
+   margin-left: 30px;
+   display: flex;
+   flex-direction: column;
+   width: 20%;
+   margin: auto;
+   padding: 30px;
+   background-color: green;
+   padding: 2.4%;
+   
+   
+}
+.iconoSub{
+width: 25px;
+height: 25px;
+
+}
+.mapa{
+   
+   margin-top: 1%;
+}
+.pi{
+
+   
+color: #ffffff;
+font-size: 19px;
+font-family: 'Oxfam-TSTARPRO-Bold';
+align-items: center;
+vertical-align: middle;
+text-transform: uppercase;
+margin: auto;
+
+}
+.izquierda{
+   
+   
+   flex-direction: row;
+  width: 35%;
+   display: inline;
+   
+
+}
+.medio{
+
+display: inline;
+   flex-direction: row;
+   width: 35%;
+  
+
+}
+.derecha{
+  
+  display: inline;
+   flex-direction: row;
+   width: 30%;
+   margin: auto;
+ 
+}
+
+
+.cr{
+   color: #61A534;
+   font-size: 45px;
+   font-family: 'Oxfam-TSTARPRO-Headline';
+   display: inline;
+   line-height: 1.3;
+   margin: auto;
+}
+.le{
+
+   padding: 10px 25px 10px 25px;
+   color: #66a33b;
+   border: 2px solid #66a33b;
+   font-size: 22px;
+   line-height: 22px;
+   font-family: 'Oxfam-TSTARPRO-Bold';
+   border-radius: 10px;
+}
+.ge{
+
+   color: #191919;
+   font-size: 20px;
+   font-family: 'Oxfam-TSTARPRO-Regular';
+}
+/*
+ahora empieza la parte de carlos y javi
+*/
+@font-face {
+    font-family: 'juego';
+    src: url("./Fuente/OSans.otf")
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+.body {
+    background-image: url(.//imagenes/india.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.h1 {
+    text-align: center;
+    font-family: 'juego';
+    color: rgb(255, 255, 255);
+    margin-top: 350px;
+    margin-bottom: 100px;
+    font-size: 65px;
+
+}
+
+.h2 {
+    color: orangered;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    
+   
+}
+.h3{
+    color:orangered;
+    text-align: center;
+    font-family:"juego";
+    font-size: 30px;
+}
+.h4{
+    text-align: center;
+    font-family:"juego";
+
+}
+
+.p {
+    padding: 80px;
+    text-align: center;
+    font-size: 28px;
+    font-family: "juego";
+    line-height: 40px;
+}
+
+.div1 {
+    background-color: white;
+    
+    
+}
+
+.proyectos {
+
+    background-color: rgb(236, 231, 231);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 20px;
+    
+
+}
+.nuestrosproyectos{
+    background-color: rgb(236, 231, 231);
+    margin: 0px;
+    padding: 4.375em;
+   
+}
+.izquierda {
+    margin: auto;
+}
+
+.centro {
+    margin: auto;
+   
+    
+}
+.derecha {
+    
+    margin: auto;
+   
+}
+
+/*
+parte de steven
+*/
+
+@font-face {
+    font-family: "letra";
+    src: url("Font-family/TSTAR-PRO-Regular.otf");
+}
+p{
+  font-family: letra;
+}
+main{
+  font-family :Oxfam-TSTARPRO-Headline;
+}
+/* Nuestras_secciones */
+
+.Caja_grande_NUESTRAS_SECCIONES{
+display: flex;
+flex-direction: column;
+background-color: yellow;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.titulo_NUESTRAS_SECCIONES{
+
+  
+  width: 100%;
+  font-size: 45px;
+  color: orange;
+  text-align: center;
+  background-color: red;
+  justify-content: center;
+
+
+
+}
+
+.col_general{
+  margin-left: 15%;
+  margin-right: 15%;
+  display: flex;
+  flex-direction: row;
+  background-color: bisque;
+  
+
+
+}
+.imgNuestrasSecciones{
+width:  95%;
+height: 95%;
+}
+
+.column1{
+  height: 48%;	
+}
+.column2{
+
+width: 100%;
+height: 48%;
+}
+.column3{
+  height: 48%;
+}
+h3{
+  color: white;
+}
+
+.color_aliment{
+
+  background-color: yellowgreen;
+  width: 91%;	
+  padding: 2%;
+}
+/*columnas*/
+
+/*TIENES_UNA_EMPRESA_O_UNA_TIENDA*/
+.TIENES_UNA_EMPRESA_O_UNA_TIENDA{
+background-image: url(https://561797-1808981-raikfcquaxqncofqfm.stackpathdns.com/pub/media/wysiwyg/Blog/Sukhi-es/La_fundadora_de_Sukhi_Nasia_Burnet_hablando_con_las_artesanas_de_India..jpg);
+background-size: 50% ;
+background-repeat: no-repeat;
+background-position: right;
+display: flex;
+
+}
+.texto_Tienes{
+
+text-align:justify;
+padding-left: 10%;
+padding-top: 5%;
+padding-bottom: 5%;
+padding-right: 5%;
+
+  background-color: lightgreen;
+  width: 50%;
+}
+.imagen{
+width: 50%;
+}
+
+/*boton*/
+.bt1{
+  background-color: white;
+  padding:6px;	
+}
+
+.bt1 a{
+  color: green;
+  text-decoration: none ;
+}
+/* desgarva */
+
+.Tu_aportación_desgrava {
+  text-align: center;
+  border: 5px solid blueviolet ;
+  font-size: 14px;
+}
+/*caja tepuede interesar*/
+.barra_final{
+display: flex;
+flex-direction: row;
+  border: 5px cadetblue solid;
+}
+.TE_PUEDE_INTERESAR{
+display: flex;
+flex-wrap: wrap;
+width: 33.33%;
+background-color: black;
+color: white;
+padding-left:2% ;
+border: 5px solid red ;
+}
+.titulo{
+  width: 100%;
+  margin: 1%;
+margin-top:2% ;
+margin-bottom:2% ;
+display: flex;
+
+
+}
+.titulo  a{
+  text-decoration: none;
+  color: green;
+}
+.col{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  
+  margin-left: 3%;
+  list-style: none;
+  
+}
+
+
+.Contacta{
+  display: flex;
+flex-direction: column;
+text-align: center;
+  width: 33.33%;
+border: 5px solid yellow ;
+
+  color: white;
+  background-color: green;
+}
+.c1{
+  height: 15%;
+  font-size: 16px;
+
+}
+.c2{
+  font-size: 40px;
+}
+.c3{
+  font-size: 20px;
+}
+.c4{
+  height: 15% 	;
+  font-size: 16px;
+}
+.fa-facebook-square:hover {
+          color: #3B5998;
+      }
+
+      .fa-twitter-square:hover {
+          color: #55acee;
+      }
+
+      .fa-google-plus-square:hover {
+          color: #dd4b39;
+      }
+
+      .fa-linkedin-square:hover {
+          color: #0177B5;
+      }
+
+      .fa-facebook-square {
+         
+          color: white;
+          margin: 3px;
+          margin-top: 1px;
+      }
+
+      .fa-twitter-square {
+         
+          color: white;
+          margin: 3px;
+          margin-top: 1px;
+      }
+
+      .fa-google-plus-square {
+         
+          color: white;
+          margin: 3px;
+          margin-top: 1px;
+      }
+
+      .fa-linkedin-square {
+        
+          color: white;
+          margin: 3px;
+          margin-top: 1px;
+      }
+
+
+.oxfam_interfom{
+  flex-direction: column;
+  justify-content: right;
+  border: 5px solid black ;
+  width: 33.33%;
+  background-color: black;
+  color: white;
+  background-image: url(https://cdn2.hubspot.net/hubfs/426027/Oxfam-Website/Logo/logo.png);
+  background-repeat: no-repeat;
+  padding-left: 2%;
+}
+.fundacion_oxfam{
+  padding-top: 55px;
+}
+.inscrita{
+  font-size: 14px;
+  width: 82%;
+}
+.futuro{
+  text-align: center;
+  max-height:10px;
+}
